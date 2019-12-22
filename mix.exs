@@ -36,7 +36,7 @@ defmodule PhoenixLiveReload.Mixfile do
 
   defp deps do
     [
-      {:phoenix, "~> 1.4"},
+      {:phoenix, git: "https://github.com/jameskylstra/phoenix", tag: "v1.4.9-code-reload-fix"},
       {:ex_doc, "~> 0.19", only: :docs},
       {:earmark, ">= 0.0.0", only: :docs},
       {:file_system, "~> 0.2.1 or ~> 0.3"},
